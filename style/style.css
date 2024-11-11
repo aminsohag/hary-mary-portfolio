@@ -120,7 +120,7 @@
     text-align: center;
     margin-bottom: 30px;
 }
-.font-description{
+.about-description{
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -152,4 +152,42 @@
 /* experience section */
 .icon-section{
     display:flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+.icon-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    text-align: center;
+    margin-top: 144px;
+    
+}
+.icon-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    text-align: center;
+    margin:30px 116px 50px 116px;
+}
+.icon-card{
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+    margin: 20px 0px;
+}
+.icon-card-des{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+}
+.icon-cards{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px 0px #000000;
+}
+.icon-flex{
+    display: flex;
 }

@@ -59,7 +59,7 @@
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 45px 0 200px;
+    margin: 0 35px 0 200px;
 }
 .banner-content{
     max-width: 585px;
@@ -190,4 +190,110 @@
 }
 .icon-flex{
     display: flex;
+}
+
+/* Resume */
+.resume{
+    font-size: 35px;
+    font-weight: 700;
+    color:#181818;
+    text-align: center;
+    margin: 140px 0 113px ;
+}
+.resume-title{
+    font-size: 30px;
+    font-weight: 700;
+    color:#474747;
+    margin-bottom: 30px;
+}
+.resume-titles{
+    font-size: 25px;
+    font-weight: 700;
+    color: #474747;
+}
+.resume-year{
+    font-weight: 20px;
+    font-weight: 600;
+    color: #757575;
+}
+.resume-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+}
+.resume-card{
+    margin: 30px 0 30px 0;
+}
+.cards{
+    margin-left: 50px;
+}
+.resume-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.resume-btn{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 113px;
+}
+
+/* footer section */
+.foot-title{
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 28px;
+}
+.foot-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+    margin-right: 117px;
+    margin-bottom: 24px;
+}
+.foot-flex{
+    display: flex;
+    background-color: #FFF8F3;
+    padding: 130px 200px;
+}
+.submit-btn{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    
+}
+.input-name{
+    width: 461px;
+    height: 64px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 1px 1px 0px #000000;
+    margin-bottom: 24px;
+}
+.message{
+    width: 461px;
+    height: 180px;
+    font-size: 20px; 
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 1px 1px 0px #000000;
+    margin-bottom: 24px;
+}
+.foot-icon{
+    margin-right: 24px;
 }
